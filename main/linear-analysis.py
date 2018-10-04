@@ -417,3 +417,5 @@ submission = pd.DataFrame(
     {'key': df_test.key, 'fare_amount': y_pred_final},
     columns = ['key', 'fare_amount'])
 submission.to_csv('submission.csv', index = False)
+
+         # final score : 5.05
